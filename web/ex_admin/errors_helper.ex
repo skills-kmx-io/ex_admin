@@ -84,7 +84,4 @@ defmodule ExAdmin.ErrorsHelper do
       end
     end)
   end
-
-  defp is_struct(%{__struct__: _}), do: true
-  defp is_struct(_), do: false
 end
